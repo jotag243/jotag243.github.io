@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>École XYZ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            padding: 14px 20px;
+            display: block;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .content {
+            padding: 20px;
+        }
+        .announcements, .schedule, .teachers, .students {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background-color: #f9f9f9;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bienvenue à l'École XYZ</h1>
+</header>
+
+<nav>
+    <a href="#announcements">Annonces</a>
+    <a href="#schedule">Emploi du temps</a>
+    <a href="#teachers">Enseignants</a>
+    <a href="#students">Élèves</a>
+</nav>
+
+<div class="content">
+    <section id="announcements" class="announcements">
+        <h2>Annonces</h2>
+        <p>Veuillez consulter cette section régulièrement pour les dernières nouvelles et mises à jour.</p>
+        <ul>
+            <li>Réunion des parents d'élèves le 1er juin.</li>
+            <li>Vacances d'été du 15 juillet au 1er septembre.</li>
+        </ul>
+    </section>
+
+    <section id="schedule" class="schedule">
+        <h2>Emploi du temps</h2>
+        <table>
+            <tr>
+                <th>Jour</th>
+                <th>8:00 - 9:00</th>
+                <th>9:00 - 10:00</th>
+                <th>10:00 - 11:00</th>
+                <th>11:00 - 12:00</th>
+                <th>13:00 - 14:00</th>
+                <th>14:00 - 15:00</th>
+                <th>15:00 - 16:00</th>
+            </tr>
+            <tr>
+                <td>Lundi</td>
+                <td>Mathématiques</td>
+                <td>Français</td>
+                <td>Physique</td>
+                <td>Histoire</td>
+                <td>SVT</td>
+                <td>Anglais</td>
+                <td>Éducation physique</td>
+            </tr>
+            <!-- Ajouter plus de lignes pour chaque jour -->
+        </table>
+    </section>
+
+    <section id="teachers" class="teachers">
+        <h2>Enseignants</h2>
+        <ul>
+            <li>Mme Dupont - Mathématiques</li>
+            <li>M. Martin - Français</li>
+            <li>Mme Leroy - Physique</li>
+            <!-- Ajouter plus d'enseignants -->
+        </ul>
+    </section>
+
+    <section id="students" class="students">
+        <h2>Élèves</h2>
+        <p>Liste des élèves de l'année scolaire en cours.</p>
+        <!-- Ajouter plus de détails sur les élèves -->
+    </section>
+</div>
+
+</body>
+</html>
